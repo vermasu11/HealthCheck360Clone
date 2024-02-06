@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B59BD3B2B6EAD4A000C05E5 /* HealthCheck360CloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59BD3A2B6EAD4A000C05E5 /* HealthCheck360CloneApp.swift */; };
+		8B59BD3D2B6EAD4A000C05E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59BD3C2B6EAD4A000C05E5 /* ContentView.swift */; };
+		8B59BD3F2B6EAD50000C05E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B59BD3E2B6EAD50000C05E5 /* Assets.xcassets */; };
+		8B59BD422B6EAD50000C05E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B59BD412B6EAD50000C05E5 /* Preview Assets.xcassets */; };
+		8B59BD4C2B6EAD50000C05E5 /* HealthCheck360CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59BD4B2B6EAD50000C05E5 /* HealthCheck360CloneTests.swift */; };
+		8B59BD562B6EAD51000C05E5 /* HealthCheck360CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59BD552B6EAD51000C05E5 /* HealthCheck360CloneUITests.swift */; };
+		8B59BD582B6EAD51000C05E5 /* HealthCheck360CloneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59BD572B6EAD51000C05E5 /* HealthCheck360CloneUITestsLaunchTests.swift */; };
+		8B59BD712B6EB1C3000C05E5 /* HealthData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59BD702B6EB1C3000C05E5 /* HealthData.swift */; };
+		8B59BD732B6EB230000C05E5 /* Survey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59BD722B6EB230000C05E5 /* Survey.swift */; };
+		8B59BD752B6EB241000C05E5 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59BD742B6EB241000C05E5 /* Appointment.swift */; };
+		8B59BD772B6EB257000C05E5 /* SurveyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59BD762B6EB257000C05E5 /* SurveyView.swift */; };
+		8B59BD792B6EB268000C05E5 /* AppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59BD782B6EB268000C05E5 /* AppointmentView.swift */; };
+		8B59BD7B2B6EB27D000C05E5 /* HealthMetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59BD7A2B6EB27D000C05E5 /* HealthMetricsView.swift */; };
+		8B59BD7D2B6EB29B000C05E5 /* SurveyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59BD7C2B6EB29B000C05E5 /* SurveyViewModel.swift */; };
+		8B59BD7F2B6EB2B0000C05E5 /* AppointmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59BD7E2B6EB2B0000C05E5 /* AppointmentViewModel.swift */; };
+		8B59BD812B6EB2C9000C05E5 /* HealthMetricsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59BD802B6EB2C9000C05E5 /* HealthMetricsViewModel.swift */; };
+		8B59BD832B6EB2E1000C05E5 /* HealthDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59BD822B6EB2E1000C05E5 /* HealthDataService.swift */; };
+		8B59BD852B6EB2F4000C05E5 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59BD842B6EB2F4000C05E5 /* NotificationService.swift */; };
+		8B59BD872B6EB310000C05E5 /* BackendService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59BD862B6EB310000C05E5 /* BackendService.swift */; };
+		8B59BD8B2B6EB335000C05E5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59BD8A2B6EB335000C05E5 /* Constants.swift */; };
+		8B59BD8F2B6EB596000C05E5 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59BD8E2B6EB596000C05E5 /* Extension.swift */; };
+		8B59BD912B6EBA7D000C05E5 /* AuthenticationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59BD902B6EBA7D000C05E5 /* AuthenticationViewModel.swift */; };
+		8B59BD932B6EBAB4000C05E5 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59BD922B6EBAB4000C05E5 /* LoginView.swift */; };
+		8B59BD972B701E5E000C05E5 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59BD962B701E5E000C05E5 /* DashboardView.swift */; };
+		8B59BD9A2B701EAE000C05E5 /* StepsSummaryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59BD992B701EAE000C05E5 /* StepsSummaryCardView.swift */; };
+		8B59BD9C2B701ED2000C05E5 /* HealthScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59BD9B2B701ED2000C05E5 /* HealthScoreView.swift */; };
+		8B59BD9E2B701F06000C05E5 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59BD9D2B701F06000C05E5 /* CircleProgressView.swift */; };
+		8B59BDA02B701F2C000C05E5 /* HealthMetricRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B59BD9F2B701F2C000C05E5 /* HealthMetricRowView.swift */; };
+		8B99AA5C2B72D50800A866D7 /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B99AA5B2B72D50800A866D7 /* CreateAccountView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B59BD482B6EAD50000C05E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B59BD2F2B6EAD4A000C05E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B59BD362B6EAD4A000C05E5;
+			remoteInfo = HealthCheck360Clone;
+		};
+		8B59BD522B6EAD51000C05E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B59BD2F2B6EAD4A000C05E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B59BD362B6EAD4A000C05E5;
+			remoteInfo = HealthCheck360Clone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B59BD372B6EAD4A000C05E5 /* HealthCheck360Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthCheck360Clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B59BD3A2B6EAD4A000C05E5 /* HealthCheck360CloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthCheck360CloneApp.swift; sourceTree = "<group>"; };
+		8B59BD3C2B6EAD4A000C05E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8B59BD3E2B6EAD50000C05E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B59BD412B6EAD50000C05E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B59BD472B6EAD50000C05E5 /* HealthCheck360CloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthCheck360CloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B59BD4B2B6EAD50000C05E5 /* HealthCheck360CloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthCheck360CloneTests.swift; sourceTree = "<group>"; };
+		8B59BD512B6EAD51000C05E5 /* HealthCheck360CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthCheck360CloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B59BD552B6EAD51000C05E5 /* HealthCheck360CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthCheck360CloneUITests.swift; sourceTree = "<group>"; };
+		8B59BD572B6EAD51000C05E5 /* HealthCheck360CloneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthCheck360CloneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8B59BD702B6EB1C3000C05E5 /* HealthData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthData.swift; sourceTree = "<group>"; };
+		8B59BD722B6EB230000C05E5 /* Survey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Survey.swift; sourceTree = "<group>"; };
+		8B59BD742B6EB241000C05E5 /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		8B59BD762B6EB257000C05E5 /* SurveyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyView.swift; sourceTree = "<group>"; };
+		8B59BD782B6EB268000C05E5 /* AppointmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentView.swift; sourceTree = "<group>"; };
+		8B59BD7A2B6EB27D000C05E5 /* HealthMetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthMetricsView.swift; sourceTree = "<group>"; };
+		8B59BD7C2B6EB29B000C05E5 /* SurveyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyViewModel.swift; sourceTree = "<group>"; };
+		8B59BD7E2B6EB2B0000C05E5 /* AppointmentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentViewModel.swift; sourceTree = "<group>"; };
+		8B59BD802B6EB2C9000C05E5 /* HealthMetricsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthMetricsViewModel.swift; sourceTree = "<group>"; };
+		8B59BD822B6EB2E1000C05E5 /* HealthDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataService.swift; sourceTree = "<group>"; };
+		8B59BD842B6EB2F4000C05E5 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		8B59BD862B6EB310000C05E5 /* BackendService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackendService.swift; sourceTree = "<group>"; };
+		8B59BD8A2B6EB335000C05E5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8B59BD8E2B6EB596000C05E5 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		8B59BD902B6EBA7D000C05E5 /* AuthenticationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewModel.swift; sourceTree = "<group>"; };
+		8B59BD922B6EBAB4000C05E5 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		8B59BD962B701E5E000C05E5 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		8B59BD992B701EAE000C05E5 /* StepsSummaryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsSummaryCardView.swift; sourceTree = "<group>"; };
+		8B59BD9B2B701ED2000C05E5 /* HealthScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthScoreView.swift; sourceTree = "<group>"; };
+		8B59BD9D2B701F06000C05E5 /* CircleProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
+		8B59BD9F2B701F2C000C05E5 /* HealthMetricRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthMetricRowView.swift; sourceTree = "<group>"; };
+		8B99AA5B2B72D50800A866D7 /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B59BD342B6EAD4A000C05E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B59BD442B6EAD50000C05E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B59BD4E2B6EAD51000C05E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B59BD2E2B6EAD4A000C05E5 = {
+			isa = PBXGroup;
+			children = (
+				8B59BD392B6EAD4A000C05E5 /* HealthCheck360Clone */,
+				8B59BD4A2B6EAD50000C05E5 /* HealthCheck360CloneTests */,
+				8B59BD542B6EAD51000C05E5 /* HealthCheck360CloneUITests */,
+				8B59BD382B6EAD4A000C05E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B59BD382B6EAD4A000C05E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B59BD372B6EAD4A000C05E5 /* HealthCheck360Clone.app */,
+				8B59BD472B6EAD50000C05E5 /* HealthCheck360CloneTests.xctest */,
+				8B59BD512B6EAD51000C05E5 /* HealthCheck360CloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B59BD392B6EAD4A000C05E5 /* HealthCheck360Clone */ = {
+			isa = PBXGroup;
+			children = (
+				8B59BD6F2B6EB132000C05E5 /* Utilities */,
+				8B59BD6E2B6EB11F000C05E5 /* Services */,
+				8B59BD6D2B6EB10D000C05E5 /* ViewModels */,
+				8B59BD6C2B6EB104000C05E5 /* Views */,
+				8B59BD6B2B6EB056000C05E5 /* Models */,
+				8B59BD3A2B6EAD4A000C05E5 /* HealthCheck360CloneApp.swift */,
+				8B59BD3E2B6EAD50000C05E5 /* Assets.xcassets */,
+				8B59BD402B6EAD50000C05E5 /* Preview Content */,
+			);
+			path = HealthCheck360Clone;
+			sourceTree = "<group>";
+		};
+		8B59BD402B6EAD50000C05E5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8B59BD412B6EAD50000C05E5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B59BD4A2B6EAD50000C05E5 /* HealthCheck360CloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B59BD4B2B6EAD50000C05E5 /* HealthCheck360CloneTests.swift */,
+			);
+			path = HealthCheck360CloneTests;
+			sourceTree = "<group>";
+		};
+		8B59BD542B6EAD51000C05E5 /* HealthCheck360CloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8B59BD552B6EAD51000C05E5 /* HealthCheck360CloneUITests.swift */,
+				8B59BD572B6EAD51000C05E5 /* HealthCheck360CloneUITestsLaunchTests.swift */,
+			);
+			path = HealthCheck360CloneUITests;
+			sourceTree = "<group>";
+		};
+		8B59BD6B2B6EB056000C05E5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B59BD702B6EB1C3000C05E5 /* HealthData.swift */,
+				8B59BD722B6EB230000C05E5 /* Survey.swift */,
+				8B59BD742B6EB241000C05E5 /* Appointment.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8B59BD6C2B6EB104000C05E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8B59BD3C2B6EAD4A000C05E5 /* ContentView.swift */,
+				8B59BD762B6EB257000C05E5 /* SurveyView.swift */,
+				8B59BD782B6EB268000C05E5 /* AppointmentView.swift */,
+				8B59BD7A2B6EB27D000C05E5 /* HealthMetricsView.swift */,
+				8B59BD922B6EBAB4000C05E5 /* LoginView.swift */,
+				8B59BD962B701E5E000C05E5 /* DashboardView.swift */,
+				8B59BD992B701EAE000C05E5 /* StepsSummaryCardView.swift */,
+				8B59BD9B2B701ED2000C05E5 /* HealthScoreView.swift */,
+				8B59BD9D2B701F06000C05E5 /* CircleProgressView.swift */,
+				8B59BD9F2B701F2C000C05E5 /* HealthMetricRowView.swift */,
+				8B99AA5B2B72D50800A866D7 /* CreateAccountView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8B59BD6D2B6EB10D000C05E5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8B59BD7C2B6EB29B000C05E5 /* SurveyViewModel.swift */,
+				8B59BD7E2B6EB2B0000C05E5 /* AppointmentViewModel.swift */,
+				8B59BD802B6EB2C9000C05E5 /* HealthMetricsViewModel.swift */,
+				8B59BD902B6EBA7D000C05E5 /* AuthenticationViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8B59BD6E2B6EB11F000C05E5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8B59BD822B6EB2E1000C05E5 /* HealthDataService.swift */,
+				8B59BD842B6EB2F4000C05E5 /* NotificationService.swift */,
+				8B59BD862B6EB310000C05E5 /* BackendService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		8B59BD6F2B6EB132000C05E5 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8B59BD8A2B6EB335000C05E5 /* Constants.swift */,
+				8B59BD8E2B6EB596000C05E5 /* Extension.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B59BD362B6EAD4A000C05E5 /* HealthCheck360Clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B59BD5B2B6EAD51000C05E5 /* Build configuration list for PBXNativeTarget "HealthCheck360Clone" */;
+			buildPhases = (
+				8B59BD332B6EAD4A000C05E5 /* Sources */,
+				8B59BD342B6EAD4A000C05E5 /* Frameworks */,
+				8B59BD352B6EAD4A000C05E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthCheck360Clone;
+			productName = HealthCheck360Clone;
+			productReference = 8B59BD372B6EAD4A000C05E5 /* HealthCheck360Clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B59BD462B6EAD50000C05E5 /* HealthCheck360CloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B59BD5E2B6EAD51000C05E5 /* Build configuration list for PBXNativeTarget "HealthCheck360CloneTests" */;
+			buildPhases = (
+				8B59BD432B6EAD50000C05E5 /* Sources */,
+				8B59BD442B6EAD50000C05E5 /* Frameworks */,
+				8B59BD452B6EAD50000C05E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B59BD492B6EAD50000C05E5 /* PBXTargetDependency */,
+			);
+			name = HealthCheck360CloneTests;
+			productName = HealthCheck360CloneTests;
+			productReference = 8B59BD472B6EAD50000C05E5 /* HealthCheck360CloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B59BD502B6EAD51000C05E5 /* HealthCheck360CloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B59BD612B6EAD51000C05E5 /* Build configuration list for PBXNativeTarget "HealthCheck360CloneUITests" */;
+			buildPhases = (
+				8B59BD4D2B6EAD51000C05E5 /* Sources */,
+				8B59BD4E2B6EAD51000C05E5 /* Frameworks */,
+				8B59BD4F2B6EAD51000C05E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B59BD532B6EAD51000C05E5 /* PBXTargetDependency */,
+			);
+			name = HealthCheck360CloneUITests;
+			productName = HealthCheck360CloneUITests;
+			productReference = 8B59BD512B6EAD51000C05E5 /* HealthCheck360CloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B59BD2F2B6EAD4A000C05E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					8B59BD362B6EAD4A000C05E5 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					8B59BD462B6EAD50000C05E5 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 8B59BD362B6EAD4A000C05E5;
+					};
+					8B59BD502B6EAD51000C05E5 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = 8B59BD362B6EAD4A000C05E5;
+					};
+				};
+			};
+			buildConfigurationList = 8B59BD322B6EAD4A000C05E5 /* Build configuration list for PBXProject "HealthCheck360Clone" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B59BD2E2B6EAD4A000C05E5;
+			productRefGroup = 8B59BD382B6EAD4A000C05E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B59BD362B6EAD4A000C05E5 /* HealthCheck360Clone */,
+				8B59BD462B6EAD50000C05E5 /* HealthCheck360CloneTests */,
+				8B59BD502B6EAD51000C05E5 /* HealthCheck360CloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B59BD352B6EAD4A000C05E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B59BD422B6EAD50000C05E5 /* Preview Assets.xcassets in Resources */,
+				8B59BD3F2B6EAD50000C05E5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B59BD452B6EAD50000C05E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B59BD4F2B6EAD51000C05E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B59BD332B6EAD4A000C05E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B59BD7D2B6EB29B000C05E5 /* SurveyViewModel.swift in Sources */,
+				8B59BD712B6EB1C3000C05E5 /* HealthData.swift in Sources */,
+				8B59BD912B6EBA7D000C05E5 /* AuthenticationViewModel.swift in Sources */,
+				8B59BD852B6EB2F4000C05E5 /* NotificationService.swift in Sources */,
+				8B59BD732B6EB230000C05E5 /* Survey.swift in Sources */,
+				8B59BD7B2B6EB27D000C05E5 /* HealthMetricsView.swift in Sources */,
+				8B99AA5C2B72D50800A866D7 /* CreateAccountView.swift in Sources */,
+				8B59BD772B6EB257000C05E5 /* SurveyView.swift in Sources */,
+				8B59BD812B6EB2C9000C05E5 /* HealthMetricsViewModel.swift in Sources */,
+				8B59BD8F2B6EB596000C05E5 /* Extension.swift in Sources */,
+				8B59BD8B2B6EB335000C05E5 /* Constants.swift in Sources */,
+				8B59BD3D2B6EAD4A000C05E5 /* ContentView.swift in Sources */,
+				8B59BD9E2B701F06000C05E5 /* CircleProgressView.swift in Sources */,
+				8B59BD7F2B6EB2B0000C05E5 /* AppointmentViewModel.swift in Sources */,
+				8B59BD932B6EBAB4000C05E5 /* LoginView.swift in Sources */,
+				8B59BD3B2B6EAD4A000C05E5 /* HealthCheck360CloneApp.swift in Sources */,
+				8B59BD9C2B701ED2000C05E5 /* HealthScoreView.swift in Sources */,
+				8B59BDA02B701F2C000C05E5 /* HealthMetricRowView.swift in Sources */,
+				8B59BD872B6EB310000C05E5 /* BackendService.swift in Sources */,
+				8B59BD792B6EB268000C05E5 /* AppointmentView.swift in Sources */,
+				8B59BD972B701E5E000C05E5 /* DashboardView.swift in Sources */,
+				8B59BD752B6EB241000C05E5 /* Appointment.swift in Sources */,
+				8B59BD832B6EB2E1000C05E5 /* HealthDataService.swift in Sources */,
+				8B59BD9A2B701EAE000C05E5 /* StepsSummaryCardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B59BD432B6EAD50000C05E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B59BD4C2B6EAD50000C05E5 /* HealthCheck360CloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B59BD4D2B6EAD51000C05E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B59BD562B6EAD51000C05E5 /* HealthCheck360CloneUITests.swift in Sources */,
+				8B59BD582B6EAD51000C05E5 /* HealthCheck360CloneUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B59BD492B6EAD50000C05E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B59BD362B6EAD4A000C05E5 /* HealthCheck360Clone */;
+			targetProxy = 8B59BD482B6EAD50000C05E5 /* PBXContainerItemProxy */;
+		};
+		8B59BD532B6EAD51000C05E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B59BD362B6EAD4A000C05E5 /* HealthCheck360Clone */;
+			targetProxy = 8B59BD522B6EAD51000C05E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8B59BD592B6EAD51000C05E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B59BD5A2B6EAD51000C05E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B59BD5C2B6EAD51000C05E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthCheck360Clone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.su-mit.HealthCheck360Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B59BD5D2B6EAD51000C05E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthCheck360Clone/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.su-mit.HealthCheck360Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8B59BD5F2B6EAD51000C05E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.su-mit.HealthCheck360CloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthCheck360Clone.app/HealthCheck360Clone";
+			};
+			name = Debug;
+		};
+		8B59BD602B6EAD51000C05E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.su-mit.HealthCheck360CloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthCheck360Clone.app/HealthCheck360Clone";
+			};
+			name = Release;
+		};
+		8B59BD622B6EAD51000C05E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.su-mit.HealthCheck360CloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HealthCheck360Clone;
+			};
+			name = Debug;
+		};
+		8B59BD632B6EAD51000C05E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.su-mit.HealthCheck360CloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HealthCheck360Clone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B59BD322B6EAD4A000C05E5 /* Build configuration list for PBXProject "HealthCheck360Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B59BD592B6EAD51000C05E5 /* Debug */,
+				8B59BD5A2B6EAD51000C05E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B59BD5B2B6EAD51000C05E5 /* Build configuration list for PBXNativeTarget "HealthCheck360Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B59BD5C2B6EAD51000C05E5 /* Debug */,
+				8B59BD5D2B6EAD51000C05E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B59BD5E2B6EAD51000C05E5 /* Build configuration list for PBXNativeTarget "HealthCheck360CloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B59BD5F2B6EAD51000C05E5 /* Debug */,
+				8B59BD602B6EAD51000C05E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B59BD612B6EAD51000C05E5 /* Build configuration list for PBXNativeTarget "HealthCheck360CloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B59BD622B6EAD51000C05E5 /* Debug */,
+				8B59BD632B6EAD51000C05E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B59BD2F2B6EAD4A000C05E5 /* Project object */;
+}
